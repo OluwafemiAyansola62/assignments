@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="registration.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg</title>
+  </head>
+  <body>
+    <div class="left-container">
+      <h1>Kid Zone coders</h1>
+      <h2>One button away from starting your journey as a programmer</h2>
+      <img
+        src="img.jpg/robo-wunderkind-hLvQ4-QEBAE-unsplash.jpg"
+        alt="tablet showing code block being usd by a kid"
+      />
+    </div>
+
+    <div class="right-container">
+      <h3>Register</h3>
+      <h4>Learn to code</h4>
+      <p>
+        It's time to give you the necessary skills that prepares you for
+        tomorrow. Register and set up your profile
+      </p>
+      <br /><br />
+
+      <form action="/action_page.php">
+        <label for="fname">First Name</label><br />
+        <br />
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last Name</label><br />
+        <br />
+        <input type="text" id="lname" name="lname" /><br />
+        <br />
+        <label for="phone">Phone Number</label><br />
+        <br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="1234-456-7891"
+          pattern="[0-9] {4}-[0-9]{3]-[0-9]{3}"
+          required
+        /><br /><br />
+        <label for="email">Email</label><br /><br />
+        <input type="email" id="email" name="email" /> <br />
+        <br />
+        <label for="pwd">Password</label><br /><br />
+        <input type="password" id="pwd" name="pwd" /><br />
+        <br />
+        <label for="pwd">Confirm Password</label><br /><br />
+        <input type="password" id="pwd" name="pwd" /><br />
+        <br />
+        <label for="cars">Gender</label>
+        <select id="gender" name="Gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option></select
+        ><br /><br />
+        <button type="button" onclick="alert('Yaay lets code!')">
+          Create Account</button
+        ><br />
+        <br />
+        <p>Already have an account? Log In</p>
+        <label for="favcolor">Favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#3F0071" />
+        <input type="submit" value="Submit" /> <br />
+        <br />
+        <label for="birthday">Date of birth:</label>
+        <input type="date" id="birthday" name="birthday" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

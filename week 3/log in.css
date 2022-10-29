@@ -1,0 +1,178 @@
+body{
+  margin: auto;
+  padding: auto;
+  background: #151515;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%
+}
+.container {
+  width: 1440px;
+  height: 1024px;
+  
+  background: #151414;
+}
+
+.container h2 {
+  left: 8.19%;
+  right: 65.14%;
+  top: 24.12%;
+  bottom: 70.21%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  
+  
+  /* clr/pink/100 */
+  
+  color: #FB2576;
+  
+}
+
+.right-container {position: absolute;
+  left: 43.06%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  /* clr/purple/100 */
+  
+  background-color: #3F0071;
+  position: absolute;
+left: 43.06%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* clr/purple/100 */
+
+color: #3F0071;
+}
+
+button{
+  margin-left: 50px;
+  left: 13.54%;
+  right: 53.78%;
+  top: 67.29%;
+  bottom: 26.27%;
+  
+  /* clr/pink/100 */
+  color: #FFFFFF;
+  background: #FB2576;
+  border-radius: 10px;
+  height: 66px;
+width: 268px;
+left: 111px;
+top: 689px;
+border-radius: 10px;
+border-color: #FAFAFA;
+
+}
+label{
+  margin-left: 50px;
+}
+input[type=password] {
+  margin-left: 50px;
+  border-radius: 4px;
+  border: 1px solid #FB2576;
+  width: 280px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 50px;
+}
+
+input[type=email] {
+  margin-left: 50px;
+  border-radius: 4px;
+  border: 1px solid #FB2576;
+  width: 280px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 50px;
+}
+.right-container h1 {
+  left: 13.9%;
+right: 68.9%;
+top: 28.03%;
+bottom: 66.31%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+/* clr/pink/100 */
+
+color: #FB2576;
+margin-left: 50px;
+}
+
+.right-container h4 {
+  left: 13.9%;
+right: 30.61%;
+top: 34.67%;
+bottom: 62.5%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin-left: 50px;
+}
+.right-container p{
+  margin-left: 50px;
+  left: 13.9%;
+  right: 40%;
+  top: 69.63%;
+  bottom: 27.54%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  /* clr/darkblue/100 */
+  
+  color: #150050; 
+}
+.container img {
+left: 41.68%;
+right: 21.5%;
+top: 74.74%;
+bottom: -9.92%;
+
+background: url(robo-wunderkind-hLvQ4-QEBAE-unsplash.jpg);
+transform: rotate(179.7deg);
+height: 360.2812467865566px;
+width: 530.2869215397625px;
+left: 600.1409301757812px;
+top: 765.32666015625px;
+border-radius: 0px;
+
+}
+label{
+  margin-left: 50px;
+  color:#FAFAFA
+}
+.right-container a {
+  color:#FB2576
+}

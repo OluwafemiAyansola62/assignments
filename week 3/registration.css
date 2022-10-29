@@ -1,0 +1,250 @@
+body{
+  margin: auto;
+  padding: auto;
+  background: #151515;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%
+}
+
+.left-container h1{
+  color: #FB2576;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  left: 10.56%;
+  right: 62.78%;
+  top: 5.76%;
+  bottom: 88.57%;
+  height: 58px;
+width: 384px;
+left: 152px;
+top: 59px;
+border-radius: nullpx;
+
+}
+
+.left-container h2{
+left: 11.88%;
+right: 65.49%;
+top: 17.38%;
+bottom: 65.43%;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+height: 176px;
+width: 326px;
+left: 171px;
+top: 178px;
+border-radius: nullpx;
+
+}
+
+.left-container img{
+  left: 41.49%;
+  right: 21.99%;
+  top: 75.33%;
+  bottom: -10.51%;
+  transform: rotate(179.76deg);
+  height: 360.2812393537502px;
+  width: 525.8434292856342px;
+  left: 597.4691162109375px;
+  top: 771.3492431640625px;
+  border-radius: 0px;
+  margin-right: 700px;
+}
+
+.right-container{
+height: 1150px;
+width: 820px;
+left: 620px;
+top: 0px;
+border-radius: 0px;
+position: absolute;
+left: 43.06%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background-color: #FAFAFA;
+}
+
+.right-container h3{
+  left: 13.54%;
+  right: 70.61%;
+  top: 12.6%;
+  bottom: 83.59%;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  height: 39px;
+width: 130px;
+left: 111px;
+top: 129px;
+border-radius: nullpx;
+color: #FB2576;
+margin-left: 40px;
+
+}
+
+.right-container h4{
+  left: 13.54%;
+  right: 60.49%;
+  top: 18.36%;
+  bottom: 77.83%;
+  margin-left: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  height: 39px;
+width: 213px;
+left: 111px;
+top: 188px;
+border-radius: nullpx;
+
+  /* identical to box height */
+  
+  
+  /* clr/purple/100 */
+  
+  color: #3F0071;
+}
+
+.right-container p{
+  left: 13.54%;
+  right: 36.46%;
+  top: 24.12%;
+  bottom: 72.17%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  height: 38px;
+width: 410px;
+left: 111px;
+top: 247px;
+border-radius: nullpx;
+margin-left: 40px;
+
+  
+  /* clr/darkblue/100 */
+  
+  color: #150050;
+}
+
+input[type=text] {
+  margin-left: 40px;
+    border-radius: 4px;
+    border: 1px solid #FB2576;
+    width: 280px;
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    height: 40px;
+} 
+
+input[type=tel] {
+  margin-left: 40px;
+  border-radius: 4px;
+  border: 1px solid #FB2576;
+  width: 280px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 40px; 
+}
+
+input[type=email] {
+  margin-left: 40px;
+  border-radius: 4px;
+  border: 1px solid #FB2576;
+  width: 280px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 40px;
+}
+input[type=password] {
+  margin-left: 40px;
+  border-radius: 4px;
+  border: 1px solid #FB2576;
+  width: 280px;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 40px;
+}
+
+input[type=color] {
+  margin-left: 40px;
+  box-sizing: border-box;
+
+width: 60px;
+height: 20px;
+
+background: #FFFFFF;
+/* clr/pink/100 */
+
+border: 1px solid #FB2576;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+input[type=submit] {
+  margin-left: 40px;
+box-sizing: border-box;
+width: 54px;
+height: 20px;
+left: 197px;
+top: 0px;
+
+background: #FFFFFF;
+/* clr/purple/100 */
+
+border: 1px solid #3F0071;
+border-radius: 4px; 
+}
+
+button{
+  margin-left: 40px;
+  left: 13.54%;
+  right: 53.78%;
+  top: 67.29%;
+  bottom: 26.27%;
+  
+  /* clr/pink/100 */
+  color: #FFFFFF;
+  background: #FB2576;
+  border-radius: 10px;
+  height: 66px;
+width: 268px;
+left: 111px;
+top: 689px;
+border-radius: 10px;
+border-color: #FAFAFA;
+
+}
+
+button.p{
+  color: #FB2576;
+}
+label{
+  margin-left: 40px;
+}
